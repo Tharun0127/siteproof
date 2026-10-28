@@ -15,3 +15,4 @@ node_modules/
 video/out/
 *.log
 siteproof_build_prompt.md
+*.egg-info/
