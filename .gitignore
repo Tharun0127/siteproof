@@ -1,0 +1,17 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+.ruff_cache/
+.pytest_cache/
+.cache/
+runs/*
+!runs/.gitkeep
+data/footage/raw/*
+!data/footage/raw/.gitkeep
+data/footage/clips/*
+!data/footage/clips/.gitkeep
+node_modules/
+video/out/
+*.log
+siteproof_build_prompt.md

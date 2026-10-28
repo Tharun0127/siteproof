@@ -1,0 +1,11 @@
+# USD per 1M tokens. Fill from the Token Factory pricing page; record the date checked.
+# null = not yet verified -> cost reported as unknown, never guessed.
+checked_on: null
+source: https://tokenfactory.nebius.com/ (pricing page)
+usd_to_inr: null
+models:
+  nvidia/Nemotron-3-Nano-Omni:            {input: null, output: null}
+  nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B:  {input: null, output: null}
+  nvidia/nemotron-3-super-120b-a12b:      {input: null, output: null}
+  nvidia/Nemotron-3.5-Super-VL:           {input: null, output: null}
+  nvidia/Nemotron-3-Ultra-550b-a55b:      {input: null, output: null}

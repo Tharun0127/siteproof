@@ -1,0 +1,17 @@
+Metadata-Version: 2.4
+Name: siteproof
+Version: 0.1.0
+Summary: Check a contractor's RA bill against a site walkthrough video.
+License: MIT
+Requires-Python: >=3.11
+License-File: LICENSE
+Requires-Dist: openai>=1.40
+Requires-Dist: httpx
+Requires-Dist: pydantic>=2.7
+Requires-Dist: pyyaml
+Requires-Dist: python-dotenv
+Requires-Dist: tavily-python
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: ruff; extra == "dev"
+Dynamic: license-file

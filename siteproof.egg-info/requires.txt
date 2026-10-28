@@ -1,0 +1,10 @@
+openai>=1.40
+httpx
+pydantic>=2.7
+pyyaml
+python-dotenv
+tavily-python
+
+[dev]
+pytest
+ruff

@@ -1,0 +1,33 @@
+[project]
+name = "siteproof"
+version = "0.1.0"
+description = "Check a contractor's RA bill against a site walkthrough video."
+requires-python = ">=3.11"
+license = { text = "MIT" }
+dependencies = [
+  "openai>=1.40",
+  "httpx",
+  "pydantic>=2.7",
+  "pyyaml",
+  "python-dotenv",
+  "tavily-python",
+]
+
+[project.optional-dependencies]
+dev = ["pytest", "ruff"]
+
+[project.scripts]
+siteproof = "siteproof.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["siteproof*"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
